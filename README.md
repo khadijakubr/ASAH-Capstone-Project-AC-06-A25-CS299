@@ -80,13 +80,13 @@ Notebook utama berisi:
 ## Cara Menggunakan / Replikasi Langkah
 Berikut langkah-langkah penggunaan dalam format Markdown yang berurutan dan benar:
 
-  **Clone Repository**
+- **Clone Repository**
      git clone <url-repo-anda>
      cd <nama-folder-repo>
-  **Install Dependencies** 
+- **Install Dependencies** 
    - Pastikan Python 3.8+ sudah terinstall.
      pip install pandas numpy matplotlib seaborn scikit-learn
-  **Siapkan Data Set**
+- **Siapkan Data Set**
     - Letakkan dataset pada folder:
         /data/
       Dengan format kolom:
@@ -95,7 +95,7 @@ Berikut langkah-langkah penggunaan dalam format Markdown yang berurutan dan bena
         - InvoiceNo
         - Quantity
         - UnitPrice
-  **Jalankan di Google Colab**
+- **Jalankan di Google Colab**
       - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge.
       - Upload folder data/ ke Colab, atau mount Google Drive dengan:
               from google.colab import drive
