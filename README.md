@@ -49,16 +49,60 @@ Notebook utama berisi:
 - **Data preprocessing & EDA**
   - Handling missing values
   - Filtering transaksi tidak valid
-  - Feature engineering (`TotalValue`, `AvgPurchase`, `CLV`)
+  - Feature engineering (`TotalValue`, `Avg Purchase`, `CLV`)
 - **Pembangunan nilai RFM**
-- **Scaling dan clustering**
+  - Perhitungan Recency
+  - Perhitungan Frequency
+  - Perhitungan Monetery / Avg Purchase/ CLV
+  - Terdapat 3 kombinasi RFM
+       - RFM 1 : Recency, Frequency, Monetary
+       - RFM 2 : Recency, Frequency, Avg Purchase
+       - RFM 3 : Recency, Frequency, CLV
+- **Scaling dan Clustering**
+  - StandardScaler
+  - Elbow Methode untuk mencari jumlah cluster
+  - Silhouette Score sebagai evaluasi
 - **Visualisasi cluster dengan pairplot**
+  - Pairplot berbasis seaborn
+  - Scatter plot antar variabel RFM
+  - Visualisasi persebaran Cluster
 - **Interpretasi cluster lengkap**
+  Mengidentifikasi seperti :
+  - Champions/VIP
+  - Loyal Custumer
+  - Potential Loyalitas
+  - New Custumers
+  - At Risk/Hibernating
 - **Rekomendasi pemasaran per segment**
-
-Setiap variasi RFM divisualisasikan dan dianalisis untuk menemukan segmentasi paling informatif.
+  Memberikan strategi marketing yang sesuai untuk tiap klaster
 
 ---
+## Cara Menggunakan / Replikasi Langkah
+Berikut langkah-langkah penggunaan dalam format Markdown yang berurutan dan benar:
+
+  **1. Clone Repository**
+     git clone <url-repo-anda>
+     cd <nama-folder-repo>
+  **2. Install Dependencies** 
+   - Pastikan Python 3.8+ sudah terinstall.
+     pip install pandas numpy matplotlib seaborn scikit-learn
+  **3.Siapkan Data Set**
+    - Letakkan dataset pada folder:
+        /data/
+      Dengan format kolom:
+        - CustomerID
+        - InvoiceDate
+        - InvoiceNo
+        - Quantity
+        - UnitPrice
+  **4.Jalankan di Google Colab**
+      - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge.
+      - Upload folder data/ ke Colab, atau mount Google Drive dengan:
+              from google.colab import drive
+              drive.mount('/content/drive')
+      - Jika menggunakan Drive, sesuaikan path dataset, misalnya:
+              df = pd.read_csv('/content/drive/MyDrive/data/transaksi.csv')
+      - Jalankan seluruh sel notebook seperti biasa. 
 
 ## 🧠 Metodologi Utama
 
