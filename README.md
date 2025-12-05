@@ -96,13 +96,13 @@ Berikut langkah-langkah penggunaan dalam format Markdown yang berurutan dan bena
         - Quantity
         - UnitPrice
 - **Jalankan di Google Colab**
-      - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge.
-      - Upload folder data/ ke Colab, atau mount Google Drive dengan:
-              from google.colab import drive
-              drive.mount('/content/drive')
-      - Jika menggunakan Drive, sesuaikan path dataset, misalnya:
-              df = pd.read_csv('/content/drive/MyDrive/data/transaksi.csv')
-      - Jalankan seluruh sel notebook seperti biasa. 
+    - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge
+    - Upload folder data/ ke Colab, atau mount Google Drive dengan:
+           - from google.colab import drive
+             drive.mount('/content/drive')
+    - Jika menggunakan Drive, sesuaikan path dataset, misalnya:
+           - df = pd.read_csv('/content/drive/MyDrive/data/transaksi.csv')
+    - Jalankan seluruh sel notebook seperti biasa. 
 
 ## 🧠 Metodologi Utama
 
