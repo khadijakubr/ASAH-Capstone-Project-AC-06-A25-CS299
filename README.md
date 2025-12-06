@@ -36,9 +36,8 @@ Dengan memanfaatkan data transaksi, perusahaan dapat membangun **segmentasi pela
 5. Menghasilkan label segmen pelanggan seperti:
    - **Champions / VIP**
    - **Loyal Customers**
-   - **Big Spenders / Whales**
-   - **New Customers**
-   - **Hibernating / At Risk**
+   - **Potential Loyalist / New Customers**
+   - **At Risk / Lost / Hibenating**
 
 ---
 
