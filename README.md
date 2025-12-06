@@ -95,7 +95,7 @@ Berikut langkah-langkah penggunaan dalam format Markdown yang berurutan dan bena
         - Quantity
         - UnitPrice
 - **Jalankan di Google Colab**
-    - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge
+    - Upload file .ipynb ke Google Colab, atau klik Open in Colab jika repo menyediakan badge.
     - Upload folder data/ ke Colab, atau mount Google Drive dengan:
            - from google.colab import drive
              drive.mount('/content/drive')
